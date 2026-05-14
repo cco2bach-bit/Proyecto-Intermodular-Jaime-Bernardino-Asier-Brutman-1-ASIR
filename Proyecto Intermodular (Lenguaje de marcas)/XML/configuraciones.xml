@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuraciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XML-CONF.xsd">
+    <tipos categoria="Iluminación">
+        <id>ILU-001</id>
+        <nombre>RGB LED Strip</nombre>
+        <precio moneda="EUR">25.00</precio>
+        <descripcion>Strip de LED RGB con control remoto y efectos de iluminación.</descripcion>
+    </tipos>
+    <tipos categoria="Cableado">
+        <id>CAB-001</id>
+        <nombre>Cableado Modular</nombre>
+        <precio moneda="EUR">50.00</precio>
+        <descripcion>Cableado modular con conectores de alta calidad.</descripcion>
+    </tipos>
+    <tipos categoria="Grabado Láser">
+        <id>GRB-001</id>
+        <nombre>Grabado Láser</nombre>
+        <precio moneda="EUR">100.00</precio>
+        <descripcion>Grabado de diseño personalizado con láser de alta precisión.</descripcion>
+    </tipos>
+</configuraciones>

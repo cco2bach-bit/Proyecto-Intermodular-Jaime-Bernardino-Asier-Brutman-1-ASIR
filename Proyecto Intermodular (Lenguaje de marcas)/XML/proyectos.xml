@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proyectos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XML-PROY.xsd">
+    <casos categoria="proyectos">
+        <id>PC-N </id>
+        <nombre>PC NEYMAR JR</nombre>
+        <descripcion>Diseñar el PC para Neymar Jr. fue una experiencia muy divertida. Desde el principio quisimos que el ordenador reflejara su personalidad y su amor por el fútbol y Brasil. Por eso utilizamos colores vivos como el verde, amarillo y azul, inspirados en la bandera brasileña. 
+                     Técnicamente también fue un gran reto, porque debía ser un equipo potente para gaming y streaming al más alto nivel competitivo.</descripcion>
+    </casos>
+    <casos categoria="proyectos">
+        <id>PC-G </id>
+        <nombre>PC KAROL G</nombre>
+        <descripcion>El proyecto para la "Bichota" fue una explosión de creatividad. Queríamos capturar la esencia de su álbum "Mañana será Bonito". Utilizamos una estética vibrante con colores pastel, degradados rosados y detalles en azul cielo. 
+                     Añadimos figuras personalizadas y un sistema de refrigeración líquida con colores reactivos que hacen que el equipo brille con la misma energía que ella proyecta en el escenario. </descripcion>
+    </casos>
+    <casos categoria="proyectos">
+        <id>PC-E </id>
+        <nombre>PC ELON MUSK</nombre>
+        <descripcion>Cuando recibimos el encargo de Elon Musk, supimos que tenía que ser algo futurista. Queríamos que reflejara su pasión por el espacio y la innovación. Por eso decidimos crear un diseño inspirado en los cohetes y SpaceX. 
+                     Utilizamos iluminación azul y blanca fría para darle un aspecto de nave espacial y componentes de alto rendimiento capaces de manejar simulaciones complejas.</descripcion>
+    </casos>
+</proyectos>

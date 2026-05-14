@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XML2.xsd">
+    <producto categoria="CPU">
+        <id>CPU-001</id>
+        <nombre>Intel Core i9-12900KF</nombre>
+        <precio moneda="EUR">310.00</precio>
+        <descripcion>Potencia híbrida de alto rendimiento para gaming y cargas exigentes.</descripcion>
+    </producto>
+
+    <producto categoria="GPU">
+        <id>GPU-001</id>
+        <nombre>ASUS TUF Gaming GeForce RTX 4070 SUPER</nombre>
+        <precio moneda="EUR">650.00</precio>
+        <descripcion>Tarjeta gráfica de gama alta equilibrada con excelente refrigeración.</descripcion>
+    </producto>
+
+    <producto categoria="RAM">
+        <id>RAM-001</id>
+        <nombre>Corsair Vengeance 32GB DDR5 5600MHz</nombre>
+        <precio moneda="EUR">120.00</precio>
+        <descripcion>Memoria DDR5 de alto rendimiento y baja latencia.</descripcion>
+    </producto>
+</catalogo>

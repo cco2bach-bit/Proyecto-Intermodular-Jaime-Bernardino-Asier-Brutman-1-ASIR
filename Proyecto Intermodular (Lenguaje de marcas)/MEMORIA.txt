@@ -1,0 +1,57 @@
+--- Proyecto B&B TECH ---
+Alumno: Asier Brutman García
+Curso: 1º ASIR
+
+Nuestra web tiene 15 páginas en total, organizadas en torno a 6 secciones principales: Inicio, Componentes, Configuración Especial, Quiénes Somos, Proyectos y Contacto. Te cuento un poco qué hay en cada una:
+
+Inicio: Es nuestra carta de presentación. Verás una foto de uno de nuestros técnicos dándolo todo en el laboratorio y, si bajas un poco, un texto donde te explicamos de qué va nuestra empresa.
+
+Componentes: Es un desplegable que te lleva directo a 8 páginas distintas (una por cada componente). Todas siguen el mismo diseño para que no te pierdas: título, foto, precio, descripción, una recomendación nuestra y un botón para volver al inicio.
+
+Configuración Especial: Funciona exactamente igual que la de componentes (y la de proyectos). Al abrir el desplegable, tienes acceso a 3 apartados clave: Iluminación RGB, Cableado Modular y Grabado Láser.
+
+Quiénes Somos: Esta es más sencillita. Tenemos una imagen y un texto donde te contamos cómo trabajamos y qué nos mueve.
+
+Proyectos: Esta sección sigue la misma estructura que la de componentes. Aquí mostramos 3 proyectos top: el de Neymar, el de Karol G y el de Elon Musk.
+
+Contacto: Aquí tienes el formulario de toda la vida para hablarnos. Solo necesitas rellenar tu nombre, correo, tipo de consulta, el mensaje y aceptar la política de privacidad para enviárnoslo.
+
+1. Estructura General y Estilos Base (HTML y CSS)
+Para la estructura principal de todas las páginas, he diseñado un esquema semántico usando etiquetas nativas de HTML5 como <header>, <nav>, <main> y <footer>.
+
+* Variables CSS: En "style.css", he implementado un sistema en la raíz (:root) para manejar la paleta corporativa (verde primario, negro y grises). Esto asegura coherencia en todo el sitio.
+* Menú Responsive: En lugar de usar JavaScript, he implementado la técnica del "checkbox oculto" (#check-menu). Al activarse en móviles, transforma el icono hamburguesa y despliega los enlaces.
+* Submenús: He desarrollado listas anidadas con la clase ".desplegable" que muestran subcategorías suavemente al hacer :hover sobre ellas.
+
+2. Página de Inicio (index.html)
+En la página principal he buscado un impacto visual directo y profesional, reflejando el sector del hardware extremo.
+
+* Sección Hero: Ocupa el 100% del alto de la pantalla (100vh). Utiliza una imagen representativa oscurecida para mejorar la legibilidad.
+* Tipografía y Efectos: El título "B&B TECH" resalta con la propiedad text-shadow en color verde, creando un efecto neón.
+* Bloque de Información: Debajo, integré una tarjeta central (.info-card) con fondo gris oscuro para exponer la misión de la empresa sin perder la estética oscura.
+
+3. Catálogo de Componentes (CPU, GPU, RAM, etc.)
+Dado que hay múltiples páginas de productos, he estandarizado su diseño usando un contenedor principal con Flexbox (.main-container) que distribuye el espacio dinámicamente.
+
+* Interactividad Visual: Inicialmente, las imágenes de los productos tienen un filtro de escala de grises (grayscale(20%)).
+* Efecto Hover: Al pasar el ratón, la imagen recupera su color, aumenta de tamaño ligeramente (transform: scale(1.05)) y el fondo se oscurece.
+* Cajas de Datos: Cada producto incluye su ".info-box" donde el precio destaca en verde corporativo y la descripción utiliza un tono grisáceo para no saturar la vista.
+
+4. Configuraciones Especiales (Grabado Láser, Cableado, etc.)
+Estas secciones siguen la misma línea visual del catálogo, pero las he adaptado a los servicios personalizados que ofrece la tienda.
+
+* En la página de grabado láser, he añadido una sección de texto explicativo en la parte inferior.
+* Esta sección utiliza la clase ".info-card" para detallar cómo varían los precios según la complejidad del diseño del cliente.
+
+5. Páginas Informativas (somos.html y proyectos.html)
+Para las secciones que cuentan la historia y muestran el trabajo de la empresa, he modificado la estructura para dar prioridad a la lectura.
+
+* Quiénes Somos: Incorpora una cabecera (#header-somos) con imagen del equipo de fondo. Separé la filosofía de los fundadores usando listas (<ul>) para que sea directo y claro.
+* Proyectos: Maqueté tres columnas para mostrar trabajos exclusivos (PC Neymar, Karol G, Elon Musk). Cada caja explica los retos técnicos de ese montaje en particular.
+
+6. Página de Contacto (contacto.html)
+Esta es la sección con mayor complejidad interactiva y validación de datos por parte del usuario.
+
+* Animaciones: El formulario entra en pantalla con una animación personalizada (@keyframes aparecer) que lo desliza suavemente hacia arriba.
+* Accesibilidad y Validación: Vinculé cada etiqueta <label> con su <input> usando "for". Añadí validaciones nativas "required", un selector (<select>) y un área de texto grande.
+* Scroll Personalizado: La caja de políticas (.politica-box) tiene un tamaño fijo con "overflow-y: auto". He personalizado la barra de scroll de WebKit con el verde de la marca.

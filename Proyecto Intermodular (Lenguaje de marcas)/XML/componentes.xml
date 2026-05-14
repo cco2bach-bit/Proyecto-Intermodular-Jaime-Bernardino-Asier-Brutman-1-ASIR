@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<componentes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XML-COMP.xsd">
+
+    <producto categoria="CPU">
+        <id>CPU-001</id>
+        <nombre>Intel Core i9-12900KF</nombre>
+        <precio moneda="EUR">310.00</precio>
+        <descripcion>Potencia híbrida de alto rendimiento para gaming y cargas exigentes.</descripcion>
+    </producto>
+
+    <producto categoria="GPU">
+        <id>GPU-001</id>
+        <nombre>ASUS TUF Gaming GeForce RTX 4070 SUPER</nombre>
+        <precio moneda="EUR">650.00</precio>
+        <descripcion>Tarjeta gráfica de gama alta equilibrada con excelente refrigeración.</descripcion>
+    </producto>
+
+    <producto categoria="RAM">
+        <id>RAM-001</id>
+        <nombre>Corsair Vengeance 32GB DDR5 5600MHz</nombre>
+        <precio moneda="EUR">120.00</precio>
+        <descripcion>Memoria DDR5 de alto rendimiento y baja latencia.</descripcion>
+    </producto>
+
+    <producto categoria="Placa Base">
+        <id>PB-001</id>
+        <nombre>ASUS ROG Strix Z590-E</nombre>
+        <precio moneda="EUR">250.00</precio>
+        <descripcion>Placa base de gama alta con soporte para procesadores Intel 12ª generación.</descripcion>
+    </producto>
+
+    <producto categoria="Almacenamiento">
+        <id>AL-001</id>
+        <nombre>Crucial P5 1TB NVMe SSD</nombre>
+        <precio moneda="EUR">70.00</precio>
+        <descripcion>Almacenamiento de alto rendimiento con tecnología NVMe.</descripcion>
+    </producto>
+
+    <producto categoria="Fuente de Alimentación">
+        <id>FA-001</id>
+        <nombre>Corsair RM850x 850W 80+ Gold</nombre>
+        <precio moneda="EUR">120.00</precio>
+        <descripcion>Fuente de alimentación de alto rendimiento con eficiencia 80+ Gold.</descripcion>
+    </producto>
+
+    <producto categoria="Caja - Torre">
+        <id>CT-001</id>
+        <nombre>Fractal Design Define 7</nombre>
+        <precio moneda="EUR">80.00</precio>
+        <descripcion>Caja de torre con excelente ventilación y diseño minimalista.</descripcion>
+    </producto>
+
+    <producto categoria="Refrigeración">
+        <id>RF-001</id>
+        <nombre>Corsair Hydro X22 AIO 120mm</nombre>
+        <precio moneda="EUR">60.00</precio>
+        <descripcion>Enfriamiento líquido de alto rendimiento con diseño elegante.</descripcion>
+    </producto>
+</componentes>
