@@ -59,7 +59,7 @@ Prometeo by ThePower Caja Mágica
 # 📂 Estructura del Proyecto
 
 ```bash
-Proyecto-Intermodular-Jaime-Bernardino-Morales-1-ASIR/
+Proyecto-Intermodular-Jaime-Bernardino-Asier-Brutman-1-ASIR/
 │
 ├── Proyecto Intermodular (Base de datos)/
 ├── Proyecto Intermodular (FOL)/
