@@ -7,13 +7,13 @@ Este repositorio contiene el desarrollo de nuestro **Proyecto Intermodular** rea
 El proyecto ha sido desarrollado por:
 
 - Jaime Bernardino Morales
-- Asier Brutman
+- Asier Brutman García
 
 Centro educativo:
 
 - Prometeo by ThePower Caja Mágica
 
-El objetivo principal de este proyecto es aplicar de forma práctica los conocimientos adquiridos durante el curso, integrando diferentes tecnologías, servicios y herramientas relacionadas con la administración de sistemas, redes y desarrollo de entornos informáticos. 
+El objetivo principal de este proyecto es aplicar de forma práctica los conocimientos adquiridos durante el curso, integrando diferentes tecnologías, servicios y herramientas relacionadas con la administración de sistemas, redes y desarrollo de entornos informáticos.
 
 ---
 
@@ -21,6 +21,12 @@ El objetivo principal de este proyecto es aplicar de forma práctica los conocim
 
 - **Jaime Bernardino Morales**
 - **Asier Brutman García**
+
+---
+
+# 🏫 Centro Educativo
+
+Prometeo by ThePower Caja Mágica
 
 ---
 
@@ -37,17 +43,29 @@ El objetivo principal de este proyecto es aplicar de forma práctica los conocim
 
 # 🛠️ Tecnologías y Herramientas Utilizadas
 
-Dependiendo del contenido del proyecto, aquí podéis modificar o añadir tecnologías:
-
+- VirtualBox
+- Visual Studio Code (VS Code)
+- Cisco Packet Tracer
+- Git
+- GitHub
+- Windows Server
 - Linux
-- Docker
-- Git y GitHub
 - Redes y servicios
-- Bash scripting
 - Virtualización
 - Bases de datos
-- Apache / Nginx
-- HTML / CSS / JavaScript
-- MySQL / MariaDB
 
 ---
+
+# 📂 Estructura del Proyecto
+
+```bash
+Proyecto-Intermodular-Jaime-Bernardino-Morales-1-ASIR/
+│
+├── Proyecto Intermodular (Base de datos)/
+├── Proyecto Intermodular (FOL)/
+├── Proyecto Intermodular (Hardware)/
+├── Proyecto Intermodular (Implantación de sistemas operativos)/
+├── Proyecto Intermodular (Lenguaje de marcas)/
+├── Proyecto Intermodular (Nube)/
+├── Proyecto Intermodular (Redes)/
+└── README.md
