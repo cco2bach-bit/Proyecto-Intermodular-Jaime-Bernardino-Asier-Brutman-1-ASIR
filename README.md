@@ -24,12 +24,6 @@ El objetivo principal de este proyecto es aplicar de forma práctica los conocim
 
 ---
 
-# 🏫 Centro Educativo
-
-:contentReference[oaicite:1]{index=1}
-
----
-
 # 🎯 Objetivos del Proyecto
 
 - Aplicar los conocimientos aprendidos en 1º ASIR.
