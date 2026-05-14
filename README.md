@@ -15,6 +15,8 @@ Centro educativo:
 
 El objetivo principal de este proyecto es aplicar de forma práctica los conocimientos adquiridos durante el curso, integrando diferentes tecnologías, servicios y herramientas relacionadas con la administración de sistemas, redes y desarrollo de entornos informáticos.
 
+Link de la web del proyecto: **https://bybtech.netlify.app/**
+
 ---
 
 # 👨‍💻 Integrantes del Grupo
